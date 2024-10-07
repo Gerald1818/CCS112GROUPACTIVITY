@@ -16,16 +16,18 @@ body {
     border-radius: 10px;
 }
 
-h1, h2 {
+h1 {
     color: #00550b;
-    font-family: 'Old English Text MT';
     font-weight: bold;
+}
+
+h2 {
+    color: #00550b;
 }
 
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 20px;
     background-color: #ffffff;
     color: white;
@@ -33,6 +35,7 @@ header {
 
 header img {
     height: 80px;
+    padding: 20px; /*added padding for space between UC text*/
 }
 
 header h1 {
@@ -159,7 +162,7 @@ button[type="submit"]:hover {
 }
 
 .contact-image {
-    width: auto; /*adjusts with window resize*/
+    width: 100%; /*stretch to window size*/
     height: auto; /* keeps the aspect ratio, no vertical cropping */
     margin-top: 30px;
     border-radius: 10px;
