@@ -10,7 +10,7 @@
 <body>
     <!-- Header with Logo and Title -->
     <header>
-        <img src="logo.jpg" alt="University of Cabuyao Logo">
+        <img src="logo.jpg" alt="PnC Library Logo">
         <h1>University of Cabuyao</h1>
     </header>
 
