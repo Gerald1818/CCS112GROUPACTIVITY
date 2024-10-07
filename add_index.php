@@ -11,11 +11,11 @@
     <!-- Header with Logo and Title -->
     <header>
         <img src="logo.jpg" alt="University of Cabuyao Logo">
-        <h1>University of Cabuyao Library</h1>
+        <h1>University of Cabuyao</h1>
     </header>
 
     <div class="container">
-        <h2>Library Management System</h2>
+        <h2>PnC eLibrary</h2>
 
         <!-- Add or Edit Book Form -->
         <div class="form-section">
