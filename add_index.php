@@ -19,7 +19,7 @@
 
         <!-- Add or Edit Book Form -->
         <div class="form-section">
-            <h2 id="formTitle">Add New Book</h2>
+            <h3 id="formTitle">Add New Book</h3>
             <form id="addBookForm" method="POST">
                 <input type="text" name="title" placeholder="Title" required>
                 <input type="text" name="author" placeholder="Author" required>
@@ -34,7 +34,7 @@
         <div id="editBookModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h2>Edit Book</h2>
+                <h3>Edit Book</h3>
                 <form id="editBookForm">
                     <input type="text" name="title" id="editTitle" placeholder="Title" required>
                     <input type="text" name="author" id="editAuthor" placeholder="Author" required>
